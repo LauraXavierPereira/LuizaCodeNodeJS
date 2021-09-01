@@ -23,9 +23,15 @@ Pacotes para utilizar o banco de dados:
 * npm i sequelize
 * npm install pg --save
 * npm i pg-hstore //Instala o drive do postgree
+* npm i yup
+
 
 Conectando ao banco de dados:
 * yarn sequelize migration:create --name=users // Cria o banco
 * yarn sequelize db:migrate                   // Executa o banco 
 
-Utilizamos https://www.md5hashgenerator.com/ para gerar um token.
+Utilizamos https://www.md5hashgenerator.com/ para gerar um token -> CODIFICAR.
+
+https://jwt.io/ decodificar esse token.
+
+Criar Bearer no postman.
