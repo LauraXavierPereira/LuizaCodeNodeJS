@@ -2,9 +2,14 @@ import { Router }  from 'express'; //Extraindo um objeto da biblioteca Router do
 import UserController from './app/controller/UserController';
 import SessionController from './app/controller/SessionController';
 
+import authMiddleware from './app/middlewares/auth';
+
 const routes = new Router();
 
 routes.post('/user', UserController.store);
 routes.post('/session', SessionController.store);
+
+routes.get('/obtendoValores', authMiddleware, UserController.index)
+
 
 export default routes;
