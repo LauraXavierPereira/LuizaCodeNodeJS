@@ -44,3 +44,5 @@ https://dashboard.heroku.com/terms-of-service
 Comandos:
 * npm run build start
 * rm -rf build  //Apagar um arquivo
+
+Após isso, configurar o projeto no Heroku e conectar com o GitHub.
