@@ -35,3 +35,12 @@ Utilizamos https://www.md5hashgenerator.com/ para gerar um token -> CODIFICAR.
 https://jwt.io/ decodificar esse token.
 
 Criar Bearer no postman.
+
+Um deploy da integração foi realizado no Heroku.
+https://dashboard.heroku.com/terms-of-service
+
+* Criação de arquivo -> ProcFile
+
+Comandos:
+* npm run build start
+* rm -rf build  //Apagar um arquivo
